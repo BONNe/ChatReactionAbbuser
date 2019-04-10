@@ -14,8 +14,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
 version = '0.0.1'
-group = 'lv.id.bonne.speedtyper' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'speedtyper'
+group = 'lv.id.bonne.reactionabuse' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'reaction-abuse-mod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -97,7 +97,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "speedtyper",
+            "Specification-Title": "reaction-abuse-mod",
             "Specification-Vendor": "BONNe",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
